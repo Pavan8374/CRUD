@@ -1,0 +1,63 @@
+.bg-custom-2 {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+.fa-trash-alt {
+  color: red;
+}
+.pagination-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+#data-table-size option {
+  text-align: center;
+}
+table {
+  width: 100px;
+  margin-top: 30px;
+}
+thead tr {
+  background-color: aliceblue;
+}
+td,
+th {
+  border: 1px soild #dddd;
+  padding: 8px;
+  text-align: left;
+}
+tbodytr:nth-child(even) {
+  background-color: #dddddd50;
+}
+tbody tr:hover {
+  box-shadow: 0px 0px 5px 0px black;
+}
+.wrapper {
+  margin: 60px auto;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 1.25em;
+}
+#pagination-demo {
+  display: inline-block;
+  margin-bottom: 1.75em;
+}
+#pagination-demo li {
+  display: inline-block;
+}
+.page-content {
+  background: #eee;
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  max-width: 660px;
+}
+.hidden {
+  display: none;
+}
+.btn-expand {
+  color: black;
+}
+.hidden {
+  background-color: grey;
+}
